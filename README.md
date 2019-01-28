@@ -1,6 +1,7 @@
 #Wirt County Farm Bureau Site
+The readme is just dev notes
 Dev notes:
 
-pictures on front page need to be 290x397
+Program pictures on index.html need to be 290x397
 
-logo picture needs to be 351x76 
+Main logo on index.html needs to be 351x76 
