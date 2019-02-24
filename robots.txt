@@ -5,3 +5,4 @@ Disallow: FILLER.html
 Disallow: /images/
 Disallow: /css/
 Disallow: /javascript/
+Disallow: contact.html
