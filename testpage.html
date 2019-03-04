@@ -1,26 +1,17 @@
 <DOCTYPE html>
 <html>
 <head>
-  <style>
-    .adBanner {
-    background-color: transparent;
-    height: 1px;
-    width: 1px;
-    }
-  </style>
-  <script type="text/javascript">
-      if ($("#wrapfabtest").height() > 0) {
-	       alert('No AdBlock :)');
-      }
-      else {
-	      alert('AdBlock Detected ');
-      }
-      ;
-  </script>
+  <script type="text/javascript" src="..\javascript\main.js"></script>
+  <script type="text/javascript" src="..\javascript\ads.js"></script>
 </head>
 <body>
-<div id="wrapfabtest">
-  <div class="adBanner">
-</div>
-</div>
+  <div>
+    <img src="..\images\advert.png" id="fallbackImage" class="hide" />
+  </div>
+  <script>
+     if( window.canRunAds === undefined ){
+       // adblocker detected, show fallback
+       showFallbackImage();
+     }
+   </script>
 </body>

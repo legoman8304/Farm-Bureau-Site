@@ -1,0 +1,7 @@
+#fallbackImage.hide {
+    display: none;
+}
+
+#fallbackImage.show {
+    display: initial;
+}
