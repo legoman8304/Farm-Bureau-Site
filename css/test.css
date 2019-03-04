@@ -3,5 +3,5 @@
 }
 
 #fallbackImage.show {
-    display: "nope.png";
+    display: initial;
 }
