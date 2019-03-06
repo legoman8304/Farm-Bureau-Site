@@ -1,11 +1,4 @@
 /*=========================================================================================*/
-#fallbackImage.hide {
-    display: none;
-}
-
-#fallbackImage.show {
-    display: initial;
-}
 body {
 	background: url(../images/bg-body.jpg) repeat;
 	font-family: Arial, Helvetica, sans-serif;
