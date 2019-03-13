@@ -11,6 +11,17 @@ function showFallbackImage() {
 }
 //////////////////////////////////////////////////////////
 
+//reverseshowFallbackImage() declaration======================/
+function showFallbackImage() {
+  var x = document.getElementById("fallbackImage");
+  if (x.style.display === "none") {
+    x.style.display = "show";
+  } else {
+    x.style.display = "block";
+  }
+}
+//////////////////////////////////////////////////////////
+
 //device detection block ===============================/
 var isMobile = false;
 
