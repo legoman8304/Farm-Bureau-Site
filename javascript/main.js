@@ -13,7 +13,7 @@ function showFallbackImage() {
 
 //reverseshowFallbackImage() declaration======================/
 function showFallbackImage() {
-  var x = document.getElementById("fallbackImage");
+  var x = document.getElementById("reversefallbackImage");
   if (x.style.display === "none") {
     x.style.display = "show";
   } else {
