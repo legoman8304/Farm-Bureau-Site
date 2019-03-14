@@ -16,17 +16,18 @@
 <body>
   <p>Dont see anything? Disable your adblock.</p>
   <div id="fallbackImage">
-    <img src="../images/adblock_off.png" id="fallbackImage" class="show"></img>
-    <img src="../images/adblock_on.png" id="reversefallbackImage" class="hide"></img>
+    <img src="../images/adblock_off.png" id="adblock_off"></img>
+    <img src="../images/adblock_on.png" id="adblock_on"></img>
     <p>Thanks for disabling your adblock!</p>
   </div>
   <script>
      if( window.canRunAds === undefined ){
        // adblocker detected, show fallback
-       showFallbackImage();
+       $("#adblock_off").hide();
        console.log("adblock enabled");
      }
      else {
+       $("#adblock_on").hide();
        console.log("adblock disabled/nonexistant");
      }
    </script>
