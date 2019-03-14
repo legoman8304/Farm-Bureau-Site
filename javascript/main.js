@@ -15,9 +15,9 @@ function showFallbackImage() {
 function showFallbackImage() {
   var x = document.getElementById("reversefallbackImage");
   if (x.style.display === "none") {
-    x.style.display = "show";
-  } else {
     x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 }
 //////////////////////////////////////////////////////////
