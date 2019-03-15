@@ -17,17 +17,19 @@
   <div>
     <img src="../images/adblock_off.png" id="adblock_off"></img>
     <img src="../images/adblock_on.png" id="adblock_on"></img>
-    <p id="adblock_off">Thanks for disabling your adblock!</p>
-    <p id="adblock_on">Disable your adblock, no ads here!<p>
+    <p class="adblock_off">Thanks for disabling your adblock!</p>
+    <p class="adblock_on">Disable your adblock, no ads here!<p>
   </div>
   <script>
      if( window.canRunAds === undefined ){
        // adblocker detected, show fallback
        $("#adblock_off").hide();
+       $(".adblock_off").hide();
        console.log("adblock enabled");
      }
      else {
        $("#adblock_on").hide();
+       $(".adblock_on").hide();
        console.log("adblock disabled/nonexistant");
      }
    </script>
