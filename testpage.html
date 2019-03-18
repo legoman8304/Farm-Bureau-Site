@@ -20,17 +20,4 @@
     <p class="adblock_off">Thanks for disabling your adblock!</p>
     <p class="adblock_on">Disable your adblock, no ads here!<p>
   </div>
-  <script>
-     if( window.canRunAds === undefined ){
-       // adblocker detected, show fallback
-       $("#adblock_off").hide();
-       $(".adblock_off").hide();
-       console.debug("adblock enabled");
-     }
-     else {
-       $("#adblock_on").hide();
-       $(".adblock_on").hide();
-       console.debug("adblock disabled/nonexistant");
-     }
-   </script>
 </body>
