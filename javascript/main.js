@@ -10,7 +10,7 @@ else {
   isMobile = false
 }
 if (isMobile = true) {
-console.debug("Mobile device");
+console.debug("Is a mobile device");
 }
 else {
 console.debug("Not a mobile device");
