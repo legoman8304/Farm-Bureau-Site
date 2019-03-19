@@ -14,6 +14,18 @@
   <!-- Hey!! You found my little comment. Wanna help devlop? Email me! (legoman8304@gmail.com)-->
 </head>
 <body>
+  <script type="text/javascript">
+    if( window.canRunAds === undefined ){
+      $("#adblock_off").hide();
+      $(".adblock_off").hide();
+      console.debug("adblock enabled");
+    }
+    else {
+      $("#adblock_on").hide();
+      $(".adblock_on").hide();
+      console.debug("adblock disabled/nonexistant");
+    }
+  </script>
   <div>
     <img src="../images/adblock_off.png" id="adblock_off"></img>
     <img src="../images/adblock_on.png" id="adblock_on"></img>
