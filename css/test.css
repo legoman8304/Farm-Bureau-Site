@@ -9,12 +9,12 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(76, 77, 61, 1);
 }
 body{
 background-color: navy;
-background: repeating-linear-gradient(65deg, purple 20px, indigo 60px, blue 110px, purple 160px, indigo 200px, navy 240px, indigo 290px, purple 320px);
-background-image: repeating-linear-gradient(65deg, purple 20px, indigo 60px, blue 110px, purple 160px, indigo 200px, navy 240px, indigo 290px, purple 320px);
+background: repeating-linear-gradient(65deg, yellow 20px, black 60px, yellow 110px, black 160px, yellow 200px, black 240px, yellow 290px, black 320px);
+background-image: repeating-linear-gradient(65deg, yellow 20px, black 60px, yellow 110px, black 160px, yellow 200px, black 240px, yellow 290px, black 320px);
 background-position-x: initial;
 background-position-y: initial;
 background-size: initial;
