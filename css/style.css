@@ -27,12 +27,14 @@ body {
 #header a.logo {
 	display: block;
 	height: 76px;
+  width: 351px;
 	margin: 0 auto;
 	padding: 47px 0 32px;
-	width: 351px;
 }
 #header a.logo img {
 	border: 0;
+  /*height: 110%;
+  width: 110%;*/
 }
 #header ul {
 	background: url(../images/menu-border.gif) no-repeat bottom left;
