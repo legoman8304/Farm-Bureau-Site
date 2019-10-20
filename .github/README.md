@@ -7,7 +7,7 @@ The open-source code for the WCFB website hosted [here (stable version)](wirtcou
 
 ### How can I help?
 
-[Email me](mailto:legoman8304@gmail.com), open a [PR](https://github.com/legoman8304/Farm-Bureau-Site/pull/new/master), submit a [feature request](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=feature_request.md&title=), or submit a [bug report](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=bug_report.md&title=)
+[Email me](mailto:legoman8304@gmail.com), open a [pull request](https://github.com/legoman8304/Farm-Bureau-Site/pull/new/master), submit a [feature request](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=feature_request.md&title=), or submit a [bug report](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ### Dev notes:
 * Program pictures on index.html need to be 290x397
