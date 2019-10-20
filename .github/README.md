@@ -1,14 +1,14 @@
 # Wirt County Farm Bureau Site
 ###The official site for the WCFB but its open-source
 -------------
-###What is this?
+### What is this?
 
 The open-source code for the WCFB website hosted [here (stable version)](wirtcountyfarmbureau.org) and [here (built directly from this repo)](https://legoman8304.github.io/Farm-Bureau-Site)
 
-###How can I help?
+### How can I help?
 
-Email me! [legoman8304@gmail.com](mailto:legoman8304@gmail.com)
+[Email me](mailto:legoman8304@gmail.com), open a [PR](https://github.com/legoman8304/Farm-Bureau-Site/pull/new/master), submit a [feature request](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=feature_request.md&title=), or submit a [bug report](https://github.com/legoman8304/Farm-Bureau-Site/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ### Dev notes:
 * Program pictures on index.html need to be 290x397
-* Main logo on index.html needs to be 351x76 
+* Main logo on index.html needs to be 351x76
