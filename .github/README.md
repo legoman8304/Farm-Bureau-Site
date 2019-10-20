@@ -1,5 +1,5 @@
 # Wirt County Farm Bureau Site
-###The official site for the WCFB but its open-source
+### The official site for the WCFB but its open-source
 -------------
 ### What is this?
 
