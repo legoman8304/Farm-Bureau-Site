@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ogbtkixgz6wuhome/repositories/fbs
+    - /bin/cp -R images $DEPLOYPATH
