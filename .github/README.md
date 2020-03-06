@@ -3,7 +3,7 @@
 -------------
 ### What is this?
 
-The open-source code for the WCFB website hosted [here (stable version)](wirtcountyfarmbureau.org) and [here (built directly from this repo)](https://legoman8304.github.io/Farm-Bureau-Site)
+The open-source code for the WCFB website hosted [here (stable version)](https://wirtcountyfarmbureau.org) and [here (built directly from this repo)](https://legoman8304.github.io/Farm-Bureau-Site)
 
 ### How can I help?
 
