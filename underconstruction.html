@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Site Maintenance</title>
+    <script>
+      function goBack() {window.history.back();}
+    </script>
     <style>
-      html { background: url(images/stars_bg.gif) }
+      html { background: url(../images/bg-body.jpg) }
       body { text-align: center; padding: 150px; }
       h1 { font-size: 50px; }
       body { font: 20px Helvetica, sans-serif; color: #000000; }
       article { display: block; text-align: left; width: 650px; margin: 0 auto; color: #000000; }
       a { color: #dc8100; text-decoration: none; }
       a:hover { color: #333; text-decoration: none; }
+      .arrow { border: solid black; border-width: 0 5.5px 5.5px 0; display: inline-block; padding: 10px; }
+      .arrow:hover { cursor: pointer;}
+      .left { transform: rotate(135deg); -webkit-transform: rotate(135deg); }
     </style>
   </head>
   <body>
@@ -21,5 +27,8 @@
             <p>&mdash; The Team</p>
         </div>
     </article>
+    <div>
+      <i onclick="goBack()" class="arrow left"></i>
+    </div>
   </body>
 </html>
